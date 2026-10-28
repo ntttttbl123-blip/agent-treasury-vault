@@ -1,6 +1,6 @@
 # AgentTreasuryVault
 
-[![Tally Provenance](https://tallyarc.tech/api/badge/CONTRACT_ADDRESS_PLACEHOLDER?chain=bot)](https://tallyarc.tech/c/CONTRACT_ADDRESS_PLACEHOLDER?chain=bot)
+[![Tally Provenance](https://tallyarc.tech/api/badge/0x11403f861C6936bD12476E0877BbA449C4694E53?chain=bot)](https://tallyarc.tech/c/0x11403f861C6936bD12476E0877BbA449C4694E53?chain=bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue)](https://soliditylang.org/)
 
