@@ -19,7 +19,8 @@ async function main() {
     if (!privateKey || privateKey.trim() === '' || privateKey.includes('PASTE_YOUR_PRIVATE_KEY_HERE')) {
         console.error('❌ Error: PRIVATE_KEY is missing or invalid in .env!');
         console.error('👉 Please open .env and set PRIVATE_KEY=0xYourPrivateKey');
-        process.exit(1);
+        process.exitCode = 1;
+        return;
     }
 
     // 2. Setup Provider & Wallet
@@ -40,7 +41,8 @@ async function main() {
         console.error(`Current balance: ${balanceBot} BOT`);
         console.error(`Estimated deployment cost: ~0.003 - 0.005 BOT.`);
         console.error(`Please fund ${wallet.address} with BOT tokens before running.`);
-        process.exit(1);
+        process.exitCode = 1;
+        return;
     }
 
     // 3. Compile Contract
