@@ -1,0 +1,26 @@
+{
+  "name": "agent-treasury-vault",
+  "version": "1.0.0",
+  "description": "[![Tally Provenance](https://tallyarc.tech/api/badge/CONTRACT_ADDRESS_PLACEHOLDER?chain=bot)](https://tallyarc.tech/c/CONTRACT_ADDRESS_PLACEHOLDER?chain=bot) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue)](https://soliditylang.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntttttbl123-blip/agent-treasury-vault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ntttttbl123-blip/agent-treasury-vault/issues"
+  },
+  "homepage": "https://github.com/ntttttbl123-blip/agent-treasury-vault#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "ethers": "^6.17.0",
+    "solc": "^0.8.24"
+  }
+}
